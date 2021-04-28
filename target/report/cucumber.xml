@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="2" time="97.246">
+    <testcase classname="Upsill SignUp" name="Upskill SignUp Page" time="53.674">
+        <system-out><![CDATA[Given User is at the Upsill SignUp page.....................................passed
+When User enters FirstName with Shravya.....................................passed
+And User enters LastName with Rai...........................................passed
+And User enters Email with shravya@mail.com.................................passed
+And User enters Username....................................................passed
+And User enters Password with Shravya.......................................passed
+And User confirms Password with Shravya.....................................passed
+And User enters Phone with 9876543211.......................................passed
+And User clicks Register button.............................................passed
+And User Validates Message with Dear Shravya,Rai............................passed
+And User Validates Email with shravya@mail.com..............................passed
+Then User is at mail page...................................................passed
+Then User clicks Compose Mail...............................................passed
+And User enters Send to field with virat....................................passed
+And User enters Subject with Mail To Test...................................passed
+And User enters Message Body with Hi, Mail To Test..........................passed
+And User send the mail......................................................passed
+And User Validates the sent message.........................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Upsill SignUp" name="Upskill SignUp Page 2" time="43.204">
+        <system-out><![CDATA[Given User is at the Upsill SignUp page.....................................passed
+When User enters FirstName with Alphonsa....................................passed
+And User enters LastName with Lincy.........................................passed
+And User enters Email with Lincy3@mail.com..................................passed
+And User enters Username....................................................passed
+And User enters Password with Lincy3........................................passed
+And User confirms Password with Lincy3......................................passed
+And User enters Phone with 9876543212.......................................passed
+And User clicks Register button.............................................passed
+And User Validates Message with Dear Alphonsa,Lincy.........................passed
+And User Validates Email with Lincy3@mail.com...............................passed
+Then User is at mail page...................................................passed
+Then User clicks Compose Mail...............................................passed
+And User enters Send to field with virat....................................passed
+And User enters Subject with Mail To Test...................................passed
+And User enters Message Body with Hi, Mail To Test..........................passed
+And User send the mail......................................................passed
+And User Validates the sent message.........................................passed
+]]></system-out>
+    </testcase>
+</testsuite>
